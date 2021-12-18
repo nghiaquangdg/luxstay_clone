@@ -1,0 +1,136 @@
+
+/* Mobile and Tablet */
+@media (max-width: 1023px) {
+    .hide-mobile-tablet {
+        display: none;
+    }
+
+    .nav__bars-btn {
+        display: block;
+    }
+
+
+    /* place */
+    /* .place__body-list {
+        padding-left: 0;
+        display: flex;
+        flex-wrap: nowrap;
+        max-width: 100%;
+        overflow-x: auto;
+    } */
+
+    
+}
+
+/*Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    /*  */
+    .row.sm-gutter {
+        margin-left: -6px;
+        margin-right: -6px;
+    }
+    
+    .row.sm-gutter .col {
+        padding-left: 6px;
+        padding-right: 6px;
+    }
+
+    /* Footer */
+    .footer__sub-item-transaction-img {
+        width: 66px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 739px) {
+    :root {
+        --header-height: 64px;
+    }
+    .hide-mobile {
+        display: none;
+    }
+
+    .row.sm-gutter {
+        margin-left: -3px;
+        margin-right: -3px;
+    }
+    
+    .row.sm-gutter .col {
+        padding-left: 3px;
+        padding-right: 3px;
+    }
+
+    .header__search-box {
+        flex: 1;
+    }
+
+    .header__logo-link { 
+        display: none;
+    }
+
+    .voucher__more-link-mobile {
+        display: block;
+    }
+
+    /* .content, */
+    .mobile-wrap,
+    .header-wrap,
+    .footer__bottom-copyright {
+        padding: 0 18px;
+    }
+
+    .header__logo-icon {
+        width: 40px;
+        height: 40px;
+    }
+
+    .nav__bars-btn {
+        margin-right: 10px;
+        margin-left: 30px;
+    }
+
+    /* Title */
+    .title{
+        margin-bottom: 0px;
+    }
+
+    .section__title {
+        margin: 10px 0 0 0;
+    }
+
+
+    /* place */
+    .place {
+        /* padding-bottom: 70px; */
+    }
+
+    /* Voucher */
+    .voucher__description {
+        display: block;
+    }
+
+    /* Introduce */
+    .introduce__about-brand-logo{
+        width: 150px;
+    }
+    .introduce__about-title {
+        font-size: 2rem;
+        font-weight: 700;
+        margin: 18px 0 26px 0;
+    }
+    .introduce__download-store {
+        flex-direction: column;
+    }
+    .introduce__download-store-link {
+        margin-bottom: 8px;
+    }
+
+    /* Footer */
+    .footer__sub-item  {
+        margin-bottom: 24px;
+    }
+
+    .footer__bottom {
+        background-color: #f5f5f5;
+    }
+}

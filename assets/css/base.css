@@ -1,0 +1,85 @@
+:root {
+    --border-color: #e7e7e7;
+    --text-color: #222;
+    --hover-color: #f65e39;
+
+    --header-height: 80px;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+@font-face {
+    src: url(font/lato-regular.ttf);
+    font-family: lato;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'lato', sans-serif;
+    box-sizing: border-box;
+}
+
+
+/* Grid Change  */
+@media (min-width: 1113px) {
+    .l-40 {
+        flex: 0 0 40%;
+        max-width: 40%;
+    }
+
+    .l-0-2-4 {
+        margin-left: 20%;
+    }
+
+
+
+/* Animation */
+@keyframes language-box {
+    from {
+        opacity: 0;
+        transform: translateY(15%);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+
+
+/* Place Section */
+/* Ghi đè sm gutter lên sm gutter của grid.css */
+.row.sm-gutter {
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.row.sm-gutter .col {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
