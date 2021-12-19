@@ -587,6 +587,10 @@
     text-decoration: none;
 }
 
+.suggest__body-link:hover .suggest__body-link-descrip-text {
+    color: var(--hover-color);
+}
+
 .suggest__body-link-img {
     width: 100%;
     height: 190px;
@@ -610,6 +614,7 @@
     color: #555;
     line-height: 2rem;
     margin: 8px 0 0 0;
+    transition: color linear 0.2s;
 }
 
 /* DISCOVERY */
@@ -824,11 +829,13 @@
 .footer__top-item-contact-body-label {
     font-size: 1.4rem;
     font-weight: 800;
+    margin-bottom: 4px;
 }
 .footer__top-item-contact-body-link {
     font-size: 1.4rem;
     text-decoration: none;
     color: #222;
+    margin-bottom: 4px;
     transition: color linear 0.2s;
 }
 .footer__top-item-contact-body-link:hover {
